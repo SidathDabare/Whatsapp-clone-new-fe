@@ -1,0 +1,128 @@
+/** @format */
+
+.chat-container {
+  background-image: url("https://i.pinimg.com/originals/97/c0/07/97c00759d90d786d9b6096d274ad3e07.png");
+  border-left: 0.2px solid #404040;
+  border-right: 0.2px solid #404040;
+}
+.chat-container-nav {
+  width: 100%;
+  height: 60px;
+  background-color: #202c33;
+  border-radius: 0px 3px 0px 0px;
+}
+.chat-container-profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: contain;
+  margin-left: 15px;
+}
+.chat-container-nav i:last-child {
+  font-size: 18px;
+  margin-top: 2px;
+}
+.chat-content {
+  flex-grow: 1;
+  width: 100%;
+  height: 78vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  /* background-color: aliceblue; */
+}
+.chat-content-item {
+  display: table;
+
+  background-color: #202c33;
+  width: auto;
+  margin: 3px 3px 3px 10px;
+  padding: 3px 10px 3px 10px;
+  border-radius: 5px;
+}
+div.chat-content::-webkit-scrollbar {
+  width: 6px;
+}
+div.chat-content::-webkit-scrollbar-track {
+  background: #000000;
+}
+div.chat-content::-webkit-scrollbar-thumb {
+  background-color: rgb(87, 87, 87);
+  border: 3px solid rgb(55, 55, 55);
+}
+.chat-input-container {
+  width: 100%;
+  height: 60px;
+  background-color: #202c33;
+}
+.chat-input {
+  position: relative;
+}
+.chat-input input {
+  padding: 7px 10px;
+  border-radius: 5px;
+  outline: none;
+  background-color: #2a3942;
+  border: none;
+  color: aliceblue;
+}
+.icon-large {
+  font-size: 18px;
+}
+.chat-dropd3own-list {
+  width: 200px;
+  margin-left: -200px !important;
+  margin-top: 10px !important;
+}
+.chat-dropdown-list div {
+  background-color: #2a3942 !important;
+  width: 100%;
+}
+.chat-dropdown-list a {
+  width: 100%;
+  background-color: #2a3942;
+  text-decoration: none;
+  color: rgb(223, 223, 223);
+}
+.chat-dropdown-list a:hover {
+  width: 100%;
+  background-color: #0e161b;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.chat-container-show {
+  background-color: #1f2427;
+}
+.chat-container-show-message {
+  width: 100%;
+  height: 60px;
+}
+.chat-container-show-message div {
+  width: 95%;
+  position: relative;
+  margin: 0 auto;
+  left: 0px;
+  right: 0px;
+}
+.chat-container-show-message div input {
+  width: 100%;
+  border-radius: 4px;
+  outline: none;
+  border: transparent;
+  padding: 5px 4px 5px 55px;
+  background-color: #202c33;
+  color: aliceblue;
+}
+.chat-container-show-message div i {
+  position: absolute;
+  color: aliceblue;
+  left: 20px;
+}
+.search-message-content {
+  width: 100%;
+  height: auto;
+  flex-grow: 1;
+}
+.search-message-content small {
+  color: rgb(186, 186, 187);
+}

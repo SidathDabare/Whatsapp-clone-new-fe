@@ -1,0 +1,175 @@
+/** @format */
+.profile-container {
+  overflow: hidden;
+  min-width: 350px;
+  border-bottom: 0.2px solid #404040;
+}
+.profile-nav-bar {
+  width: 100%;
+  height: 60px;
+  background-color: #202c33;
+  border-radius: 3px 0px 0px 3px;
+}
+.own-profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: contain;
+  margin-left: 15px;
+}
+.online-status {
+  position: relative;
+}
+.own-profile-action {
+  min-width: 120px;
+}
+.own-profile-action i {
+  font-size: 18px;
+}
+.own-profile-action :last-child {
+  margin-top: -3px;
+}
+.circle {
+  border: 2px dashed white;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: relative;
+  justify-content: space-between;
+}
+.online-dot {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: rgb(6, 189, 101);
+  border-radius: 50%;
+  top: 0px;
+  right: 0px;
+}
+.profile-search-bar {
+  position: relative;
+}
+.profile-search-bar i:first-child {
+  font-size: 15px;
+  position: absolute;
+  color: #e6eaed;
+  margin-left: 16px;
+}
+.profile-search-bar i:last-child {
+  font-size: 18px;
+}
+.profile-search-bar input {
+  width: 93%;
+  border-radius: 4px;
+  outline: none;
+  border: transparent;
+  padding: 5px 4px 5px 55px;
+  background-color: #202c33;
+  color: aliceblue;
+}
+.single-profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: contain;
+  margin-left: 15px;
+}
+
+div.profiles-container {
+  width: 100%;
+  height: 70vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+div.profiles-container::-webkit-scrollbar {
+  width: 6px;
+}
+div.profiles-container::-webkit-scrollbar-track {
+  background: #000000;
+}
+div.profiles-container::-webkit-scrollbar-thumb {
+  background-color: rgb(87, 87, 87);
+  border: 3px solid rgb(55, 55, 55);
+}
+
+.profile-container-show {
+  width: 100%;
+  height: 100%;
+  border-bottom: 0.2px solid #404040;
+}
+.profile-container-show-picture {
+  width: 100%;
+  height: 40%;
+}
+
+.own-profile-action-nav {
+  width: 100%;
+  height: 60px;
+  background-color: #202c33;
+  align-items: flex-end;
+}
+
+.own-profile-pic-big {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-size: cover;
+}
+div.contact-list-container {
+  width: 100%;
+  height: 70vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+div.contact-list-container::-webkit-scrollbar {
+  width: 6px;
+}
+div.contact-list-container::-webkit-scrollbar-track {
+  background: #000000;
+}
+div.contact-list-container::-webkit-scrollbar-thumb {
+  background-color: rgb(87, 87, 87);
+  border: 3px solid rgb(55, 55, 55);
+}
+
+.contact-profile-action-nav {
+  width: 100%;
+  height: 60px;
+  background-color: #202c33;
+  align-items: flex-end;
+}
+
+.contact-search-bar {
+  width: 100%;
+  height: 60px;
+}
+.contact-search-bar div {
+  position: relative;
+}
+.contact-search-bar div input {
+  width: 100%;
+  border-radius: 4px;
+  outline: none;
+  border: transparent;
+  padding: 5px 4px 5px 55px;
+  background-color: #202c33;
+  color: aliceblue;
+}
+.contact-search-bar div i {
+  position: absolute;
+  margin-left: 15px;
+}
+.display-users-item {
+  background-color: #202c33;
+  border-radius: 10px;
+  margin: 3px 5px 3px 0;
+  width: 120px;
+}
+.display-users-item span:first-child {
+  text-overflow: ellipsis;
+  font-size: small;
+}
+.create-chat-btn {
+  padding: 1px 15px;
+  border-radius: 10px;
+}

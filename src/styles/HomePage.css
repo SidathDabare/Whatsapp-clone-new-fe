@@ -1,0 +1,11 @@
+/** @format */
+
+.main-container {
+  width: 100%;
+  min-width: 768px;
+  height: 100vh;
+  background-color: #111b21;
+  padding: 20px;
+  color: aliceblue;
+  overflow: hidden;
+}
